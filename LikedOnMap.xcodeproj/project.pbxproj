@@ -10,7 +10,6 @@
 		47118C47282908B200B349F7 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47118C46282908B200B349F7 /* Spinner.swift */; };
 		47118C49282908CE00B349F7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47118C48282908CE00B349F7 /* LocationManager.swift */; };
 		47118C4B28290A2F00B349F7 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47118C4A28290A2F00B349F7 /* Mock.swift */; };
-		47118C4E28290CB300B349F7 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 47118C4D28290CB300B349F7 /* Preview Content */; };
 		4746A8EC28280CEA00203C22 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4746A8EB28280CEA00203C22 /* MapView.swift */; };
 		479A19B62827BC8500F9D58A /* LikedOnMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A19B52827BC8500F9D58A /* LikedOnMapApp.swift */; };
 		479A19B82827BC8500F9D58A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A19B72827BC8500F9D58A /* Map.swift */; };
@@ -22,7 +21,6 @@
 		47118C46282908B200B349F7 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		47118C48282908CE00B349F7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		47118C4A28290A2F00B349F7 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
-		47118C4D28290CB300B349F7 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		4746A8EB28280CEA00203C22 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		479A19B22827BC8500F9D58A /* LikedOnMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikedOnMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479A19B52827BC8500F9D58A /* LikedOnMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedOnMapApp.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				479A19C52827BDC600F9D58A /* Point.swift */,
 				47118C4A28290A2F00B349F7 /* Mock.swift */,
 				479A19B92827BC8A00F9D58A /* Assets.xcassets */,
-				47118C4D28290CB300B349F7 /* Preview Content */,
 			);
 			path = LikedOnMap;
 			sourceTree = "<group>";
@@ -140,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47118C4E28290CB300B349F7 /* Preview Content in Resources */,
 				479A19BA2827BC8A00F9D58A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,10 +283,9 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LikedOnMap/Preview Content\"";
 				DEVELOPMENT_TEAM = CWMQ47K6W3;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LikedOnMap/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show current location";
@@ -328,10 +323,9 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LikedOnMap/Preview Content\"";
 				DEVELOPMENT_TEAM = CWMQ47K6W3;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LikedOnMap/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Show current location";
